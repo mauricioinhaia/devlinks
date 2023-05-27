@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: url(./assets/darkmode/bg-mobile-dark.jpg) no-repeat top
     center/cover;
@@ -11,11 +17,12 @@ body * {
 #container {
   width: 360px;
   height: 712px;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -25,4 +32,5 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+  margin-top: 8px;
 }
